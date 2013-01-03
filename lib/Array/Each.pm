@@ -1,5 +1,5 @@
 package Array::Each;
-$VERSION = 0.02;
+$VERSION = 0.03;
 use strict;
 use warnings;
 
@@ -10,12 +10,8 @@ elements from each array followed by the array index.
 
 =head1 VERSION
 
-This document refers to version 0.02 of Array::Each,
+This document refers to version 0.03 of Array::Each,
 released March 26, 2004.
-
-Note: this version is an alpha release.  Hopefully it is all correct
-and there will be no changes to the interface in future releases,
-but that may not be the case.
 
 =head1 SYNOPSIS
 
@@ -803,7 +799,11 @@ Any integer >= 0 is valid for C<count>.
 
 See examples of using C<count> in Array::Each::Tutorial.
 
+=back
+
 =head2 Semi-Private Attributes and Accessor Methods
+
+=over 8
 
 =item C<_each>, _set_each( CODE_REF ), _get_each_name(), _get_each_ref()
 
